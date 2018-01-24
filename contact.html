@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="assets/css/Vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/Vendor/animated/animate.min.css" rel="stylesheet"> 
+		<link href="assets/css/Vendor/animated/animate.css" rel="stylesheet"> 
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<title>2 VHS DIGLIB -CONTACT</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default">
+				<div id="menusign">
+					<div id="menu-links">
+                        <ul>
+                            <li class="reg_2vhs">
+                                <a class="gabung">LOGIN</a>
+                                <div class="join-top">
+									<form>
+										<div class="form-group">
+											<input type="text" class="form-control" id="username" placeholder="Username">
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control" id="password" placeholder="Password">
+										</div>
+										<button type="submit" class="btn btn-default fr">Login</button>
+										<div class="checkbox">
+											<label><input type="checkbox" value="remember-me"> Remember me</label>
+										</div>
+										<br />
+										<p class="hitam">Not a member?<a href="formulir.html">Sign up now </a></p>
+										<p class="orange" ><a href="adminlogin.html"> Admin Here</a></p>
+									</form>
+                                </div>
+                            </li>
+							<li><a href="formulir.html">REGISTER</a></li>
+                            <div class="clr"></div>
+                        </ul>
+                    </div>
+				</div>
+				<div id="menusign-before"> </div>
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">
+						<img class="hvr-pulse" src="assets/images/logo1.png" />
+						<div id="header">
+							<span id="title" class="hvr-skew-forward">2 VHS</span>
+							<span id="deshead" class="hvr-float-shadow">DIGITAL LIBRARY</span>
+						</div>	
+					</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<nav id="menu" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">HOME</a></li>
+							<li class="dropdown">
+								<a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATALOG<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="catalog.html">Book</a></li>
+									<li><a href="magazine.html">Magazine</a></li>
+									<li><a href="jurnal.html">Journal</a></li>
+								</ul>
+							</li>
+							<li><a href="gallery.html">GALLERY</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+							<li><a href="adminlogin.html">ADMIN</a></li>
+						</ul>
+					</nav>	
+				</div>			
+			</nav>
+		</header>
+		<section id="section-contact" >
+			<div class="container">
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">	
+								<h2 class="section-heading">Contact us</h2>
+								<p>Masukkan dan Saran yang membangun dari anda sangat membantu kami dalam mengembangkan website ini</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="cform" id="contact-form">
+							<div id="sendmessage" class="alert alert-success" role="alert">
+								<button type="button" class="close" data-dismiss="alert">×</button>
+								<strong>Well done!</strong> Thank's You, Your Message has been send.
+							</div>
+							<form action="contact/contact.php" method="post" role="form" class="contactForm">
+								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.8s">	
+									<div class="form-group">
+										<label for="name">Your Name</label>
+										<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+										<div class="validation"></div>
+									</div>
+								</div>
+								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1s">	
+									<div class="form-group">
+										<label for="email">Your Email</label>
+										<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+										<div class="validation"></div>
+									</div>
+								</div>
+								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.3s">	
+									<div class="form-group">
+										<label for="subject">Subject</label>
+										<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+										<div class="validation"></div>
+									</div>
+								</div>
+								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">	
+									<div class="form-group">
+										<label for="message">Message</label>
+										<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+										<div class="validation"></div>
+									</div>
+								</div>
+								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="2.0s">	
+									<button type="submit" class="btn btn-theme btn-lg1 btn-block">SEND MESSAGE</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>Created by Billy Maulana, Aris Purnomo, M.Zalaludin, Habib Ali Copyright &copy; 2015</p>
+		</footer>
+		<script src="assets/js/vendor/Jquery/jquery.min.js"></script>
+		<script src="assets/js/vendor/Jquery/jquery.js"></script>
+		<script src="assets/js/vendor/Bootstrap/bootstrap.min.js"></script>
+		<script src="assets/js/vendor/validate/validate.js"></script>
+		<script src="assets/js/vendor/anyar/wow.min.js"></script>
+		<script src="assets/js/vendor/owl/owl.carousel.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+<html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="assets/css/Vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/Vendor/owl/owl.carousel.css" rel="stylesheet" />
+		<link href="assets/css/Vendor/animated/animate.min.css" rel="stylesheet"> 
+		<link href="assets/css/Vendor/animated/animate.css" rel="stylesheet"> 
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<title>2 VHS DIGLIB - CATALOG</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default">
+				<div id="menusign">
+					<div id="menu-links">
+                        <ul>
+                            <li class="reg_2vhs">
+                                <a class="gabung">LOGIN</a>
+                                <div class="join-top">
+									<form>
+										<div class="form-group">
+											<input type="text" class="form-control" id="username" placeholder="Username">
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control" id="password" placeholder="Password">
+										</div>
+										<button type="submit" class="btn btn-default fr">Login</button>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="remember-me"> Remember me
+											</label>
+										</div>
+										<br />
+										<p class="hitam">Not a member? 
+											<a href="formulir.html">Sign up now </a>					
+										</p>
+										<p class="orange" >
+											<a href="adminlogin.html"> Admin Here</a>
+										</p>
+										
+									</form>
+									
+                                </div>
+                            </li>
+							<li><a href="formulir.html">REGISTER</a></li>
+                            <div class="clr"></div>
+                        </ul>
+                    </div>
+				</div>
+				<div id="menusign-before"> </div>
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">
+						<img class="hvr-pulse" src="assets/images/logo1.png" />
+						<div id="header">
+							<span id="title" class="hvr-skew-forward">2 VHS</span>
+							<span id="deshead" class="hvr-float-shadow">DIGITAL LIBRARY</span>
+						</div>	
+					</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<nav id="menu" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">HOME</a></li>
+							<li class="dropdown">
+								<a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATALOG<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="catalog.html">Book</a></li>
+									<li><a href="magazine.html">Magazine</a></li>
+									<li><a href="jurnal.html">Journal</a></li>
+								</ul>
+							</li>
+							<li><a href="gallery.html">GALLERY</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+							<li><a href="adminlogin.html">ADMIN</a></li>
+						</ul>
+					</nav>	
+				</div>			
+			</nav>
+		</header>
+		<div class="demo">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<h1 class="center">Journal</h1>
+							Search By Categorized : 
+					<form>
+						<select name="selectmenu" onchange="go(this.form)">
+						<option>--Select Categorized--
+						<option value="#"> Sains
+						<option value="#"> Technology
+						<option value="#"> Novel
+						<option value="#"> Dongeng
+						<option value="#"> Religion
+						<option value="#"> Art 
+						<option value="#"> Novel
+						</select>
+					</form>
+						<div id="owl-demo" class="owl-carousel">
+							<div class="item">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2 class="isisowl">Gaza In The Night</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+							<div class="isisowl">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2>Diamond In The Sky</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+							<div class="isisowl">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2>Auntum In Paris</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+							<div class="isisowl">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2>Black Shines</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+							<div class="isisowl">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2>Sepasang Kaos Kaki Hitam</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+							<div class="isisowl">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2>The Pirates Of Atlantica</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+							<div class="isisowl">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2>Jet Lag</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+							<div class="isisowl">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2>Pyramid Mystic</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+							<div class="isisowl">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2>Java Island</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+							<div class="isisowl">
+								<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+								<h2>Afficial Intelligence</h2>
+								<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+							</div>
+						</div>		  
+					</div>	
+				</div>
+				<div class="row">
+				<h1 class="center">BESTSELLER BOOK</h1>
+				<div class="col-md-4">
+					<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+					<h2>Gaza In The Night</h2>
+					<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+					<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+					<h2>Gaza In The Night</h2>
+					<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+					<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+					<h2>Gaza In The Night</h2>
+					<p class="desbook">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+					<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<h1 class="center">TOP BOOK</h1>
+				<div class="col-md-4">
+					<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+					<h2>Gaza In The Night</h2>
+					<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+					<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+					<h2>Gaza In The Night</h2>
+					<p class="desbook">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+					<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="bayangan" src="assets/images/book.png" alt="Generic placeholder image" >
+					<h2>Gaza In The Night</h2>
+					<p class="desbook">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+					<p><a class="btn btn-default btnbook " href="aboutbuku.html" role="button">View details &raquo;</a></p>
+				</div>
+			</div> 				
+			</div> 
+		</div> 	
+
+		<footer>
+			<p>Created by Billy Maulana, Aris Purnomo, M.Zalaludin, Habib Ali Copyright &copy; 2015</p>
+		</footer>
+		<script src="assets/js/vendor/Jquery/jquery.min.js"></script>
+		<script src="assets/js/vendor/Bootstrap/bootstrap.min.js"></script>
+		<script src="assets/js/vendor/owl/owl.carousel.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+<html>
